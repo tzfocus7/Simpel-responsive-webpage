@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Capstone Project 2</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/61903fb573.js" crossorigin="anonymous"></script>
+        <link href="index.css" type="text/css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+       <nav>
+            <img src="logo.svg" alt="Fylo logo" class="logo">
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars fa-2x"></i>
+            </button>
+            <ul class="nav-ul" id="nav-ul">
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Sign in</a></li>
+                <li><a href="#">Sign up</a></li>
+            </ul>
+     </nav>
+     <script src="hamburger.js"></script>
+
+      <div class="form">
+        <form>
+        <label for="username">Username</label><br>
+        <input type="text" id="username"><br>
+        <div id="feedback"></div><br>
+
+        <label for="email">Email</label><br>
+        <input type="text" id="username"><br><br>
+
+        <label for="phoneNumber">Phone Number</label><br>
+        <input type="tel" id="username"><br><br>
+
+        <label for="password">Password</label><br>
+        <input type="password" id="password"><i class="fa fa-eye" aria-hidden="true" id="togglePassword"></i><br><br>
+
+        <label for="password">Confirm Password</label><br>
+        <input type="password" id="password1"><i class="fa fa-eye" aria-hidden="true" id="togglePassword1"></i><br><br>
+
+        <button class="signUp" type="submit">Sign up</button>
+       </form>         
+      </div>
+      <script src="passwordVisibility.js"></script>
+      <script src="confirmPasswordVisibility.js"></script>   
+      <script src="usernameValidation.js"></script>   
+
+    </body>
+
+</html>

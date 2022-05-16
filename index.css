@@ -1,0 +1,104 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.nav-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    list-style-type: none;
+   
+}
+.nav-ul li a{
+    display: inline-block;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(139, 190, 235);
+}
+.hamburger{
+    display: none;
+    background-color: transparent;
+    border: 0;
+    color: black;
+    cursor: pointer;
+}
+.hamburger:focus{
+    outline: none;
+}
+div.form{
+    display: block;
+    text-align: center; 
+    padding: 20px; 
+}
+form{
+    display: inline-block;
+    margin-right: auto;
+    margin-right: auto;
+    text-align: left;
+   
+}
+input{
+    padding: 8px;
+    width: 20rem;
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+    border-radius: 5px;
+}
+input:hover{
+    box-shadow: 0 0 2pt 2pt orange ;
+    
+    
+}
+
+button.signUp{
+    margin-left: 16.5em;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 100px;
+    color: #fff;
+    background-color: #D3D3D3;
+}
+button.signUp:hover{
+    box-shadow: 0 0 2pt 2pt orange ;
+    
+}
+i{
+    margin-left:-30px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px){
+    .nav-ul{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: blue;   
+    }
+    .nav-ul.show{
+        display: flex;
+    }
+    .hamburger{
+        display: block;
+    }
+    .logo{
+        width: 80px;
+    }
+
+}
